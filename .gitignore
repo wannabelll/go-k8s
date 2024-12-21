@@ -1,0 +1,19 @@
+# Ignore Go binaries
+go-k8s.exe
+
+# Ignore local kubeconfig file if it contains sensitive information
+kubeconfig
+
+# Ignore vendor directory (if not using Go modules)
+vendor/
+
+# Ignore build and IDE files
+*.out
+*.log
+.idea/
+.vscode/
+
+# Ignore Go modules cache
+*.mod
+*.sum
+
