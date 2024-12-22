@@ -1,4 +1,5 @@
 # Ignore Go binaries
+go-k8s
 go-k8s.exe
 
 # Ignore local kubeconfig file if it contains sensitive information
