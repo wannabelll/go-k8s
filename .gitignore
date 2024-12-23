@@ -7,7 +7,7 @@ kubeconfig
 
 # Ignore vendor directory (if not using Go modules)
 vendor/
-
+test-*/
 # Ignore build and IDE files
 *.out
 *.log
